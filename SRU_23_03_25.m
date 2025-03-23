@@ -2,8 +2,8 @@ clear all;
 clc
 
 % Define file paths
-input_file = "/Users/sam/Downloads/Data_Sulphur_Recovery_Unit/Cleaned_IN_Table.csv";
-output_file = "/Users/sam/Downloads/Data_Sulphur_Recovery_Unit/Cleaned_OUT_Table.csv";
+input_file = "Cleaned_IN_Table.csv";
+output_file = "Cleaned_OUT_Table.csv";
 
 % Read input and output data
 data1 = readmatrix(input_file);
