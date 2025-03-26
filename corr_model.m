@@ -1,7 +1,7 @@
 clear;
 clc
-input_data=readmatrix("/Users/sam/Downloads/Data_Sulphur_Recovery_Unit/Cleaned_IN_Table.csv");
-output_data=readmatrix("/Users/sam/Downloads/Data_Sulphur_Recovery_Unit/Cleaned_OUT_Table.csv");
+input_data=readmatrix("Cleaned_IN_Table.csv");
+output_data=readmatrix("Cleaned_OUT_Table.csv");
 data=[input_data,output_data];
 cor_matrix=zeros(4,1);
 cor_matrix2=zeros(4,1);
