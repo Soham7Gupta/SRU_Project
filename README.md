@@ -17,7 +17,7 @@ We use a two-step approach:
 2. **Random Forest Regression**:
    - Two separate Random Forest models are trained on-the-fly for each query to predict the two output variables.
 
-##  Current Results
+## Current Results
 
 - **Mean Squared Error (MSE):**
   - Output 1: `0.00056856`
@@ -29,18 +29,18 @@ We use a two-step approach:
 
 These results indicate that the JIT + RF model captures substantial variance in the data, especially for Output 1.
 
-##  Previous Work
+## Previous Work
 
 Previously, a standalone JIT modeling approach was tried, yielding an average R² around `0.72`. The combination with Random Forest has now improved the performance on both outputs, especially Output 1.
 
-##  Visualizations
+## Visualizations
 
 - Error deviation from mean across samples
 - Predicted vs True values for each output variable
 
 These plots help in understanding the local modeling performance and the overall prediction accuracy.
 
-##� Work in Progress
+## Work in Progress
 
 - Hyperparameter tuning for `k` (neighbors) and `n_estimators` (RF depth)
 - Batch prediction optimizations
